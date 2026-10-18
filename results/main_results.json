@@ -1,0 +1,31 @@
+{
+  "dataset": "BIRD dev-full",
+  "metric": "execution accuracy",
+  "questions": 1534,
+  "selectors": [
+    {
+      "name": "Full+LR",
+      "correct": 1003,
+      "accuracy": 0.6538
+    },
+    {
+      "name": "Lite+LR",
+      "correct": 985,
+      "accuracy": 0.6421
+    },
+    {
+      "name": "Full-Semantic Risk+LR",
+      "correct": 993,
+      "accuracy": 0.6473
+    },
+    {
+      "name": "Execution-cluster-only+LR",
+      "correct": 972,
+      "accuracy": 0.6336
+    }
+  ],
+  "notes": [
+    "All selectors operate on the same frozen five-candidate pool.",
+    "The frozen candidate SQL text, benchmark databases, and per-candidate execution logs are not redistributed."
+  ]
+}
