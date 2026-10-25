@@ -25,7 +25,8 @@
     }
   ],
   "notes": [
-    "All selectors operate on the same frozen five-candidate pool.",
-    "The frozen candidate SQL text, benchmark databases, and per-candidate execution logs are not redistributed."
+    "All selectors operate on the same original frozen five-slot candidate pool.",
+    "The frozen-inference companion is publicly available at https://github.com/sjc0329/SAVER-SQL/releases/tag/v1.0.0.",
+    "BIRD/Spider databases and full execution values are not redistributed."
   ]
 }
