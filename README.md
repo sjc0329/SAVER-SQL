@@ -1,6 +1,6 @@
 # SAVER-SQL
 
-Implementation accompanying **SAVER-SQL: Requirement-Guided Diagnostic Evidence for Text-to-SQL Candidate Selection**, Fei Chen and Jiancheng Sun.
+Implementation accompanying **SAVER-SQL: Requirement-Guided Diagnostic Evidence for Text-to-SQL Candidate Selection**, Jiancheng Sun.
 
 SAVER-SQL turns question requirements into candidate-specific diagnostic evidence. One question-level LLM call extracts an intent frame; deterministic comparisons derive mismatch indicators for each SQL candidate; an L2-regularized logistic regression selector integrates these indicators with execution consensus, SQL structure and generation provenance. It returns one original SQL from a frozen five-slot pool with a retained evidence record.
 
