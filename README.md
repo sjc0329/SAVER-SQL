@@ -44,4 +44,4 @@ The code provides feature construction, diagnostics, prompts/rules, fixed LR con
 
 ## Citation
 
-Fei Chen and Jiancheng Sun (2026). SAVER-SQL: Requirement-Guided Diagnostic Evidence for Text-to-SQL Candidate Selection. Manuscript in preparation.
+Jiancheng Sun (2026). SAVER-SQL: Requirement-Guided Diagnostic Evidence for Text-to-SQL Candidate Selection. Manuscript in preparation.
